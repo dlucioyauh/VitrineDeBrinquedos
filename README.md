@@ -65,10 +65,3 @@ Se você quiser contribuir com o projeto, fique à vontade para abrir uma `issue
 Este projeto está licenciado sob a MIT License. Veja o arquivo `LICENSE` para mais detalhes.
 ```
 
-### Como Usar
-
-1. Crie um arquivo chamado `README.md` na raiz do seu projeto.
-2. Copie e cole o conteúdo acima.
-3. Certifique-se de que a imagem `tela.png` esteja na pasta correta, conforme referenciado no README.
-
-Se precisar de mais alguma coisa ou ajustes, é só avisar!
