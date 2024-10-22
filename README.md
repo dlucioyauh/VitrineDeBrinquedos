@@ -70,8 +70,11 @@ A página **Estilizando o Nome do Brinquedo** permite que o usuário insira uma 
 
 Este projeto é de propriedade de Douglas Lucio - IonKod.
 
+<<<<<<< HEAD
 Você pode utilizar, modificar e distribuir este projeto sob as seguintes condições:
 
 - Acreditamos que o conhecimento deve ser compartilhado. Portanto, sinta-se à vontade para usar e adaptar o código conforme necessário.
 - Ao redistribuir ou modificar o código, por favor, mantenha esta nota de crédito ao autor original.
 Para mais informações, entre em contato: Douglas Lucio - IonKod.
+=======
+>>>>>>> bc38809c406f895e756bee4c48e15cece275c565
