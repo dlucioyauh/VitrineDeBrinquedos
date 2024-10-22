@@ -3,72 +3,75 @@
 
 ## Descrição
 
-O projeto **Vitrine de Brinquedos** é uma aplicação web simples que permite aos usuários inserir os nomes de três brinquedos e exibi-los em uma lista organizada. A aplicação utiliza HTML, CSS e JavaScript para proporcionar uma experiência interativa.
+Este projeto consiste em duas páginas web que permitem interagir com a estilização e apresentação de brinquedos. A primeira página exibe uma lista de brinquedos, enquanto a segunda permite ao usuário estilizar o nome de um brinquedo com cor e tamanho de fonte.
 
 ## Estrutura do Projeto
 
-A estrutura do projeto é a seguinte:
-
 ```
 VitrineDeBrinquedos/
-├── assets
-│   ├── css
+├── assets/
+│   ├── css/
 │   │   └── style.css
-│   ├── images
+│   ├── images/
+│   │   ├── estilizando.png
 │   │   └── tela.png
-│   └── scripts
+│   └── scripts/
+│       ├── estilizando.js
 │       └── script.js
-└── index.html
+├── estilizando.html
+├── index.html
+└── README.md
 ```
 
-- **index.html**: O arquivo principal da aplicação que contém a estrutura HTML.
-- **assets/css/style.css**: O arquivo CSS que estiliza a aplicação.
-- **assets/scripts/script.js**: O arquivo JavaScript que adiciona interatividade à aplicação.
-- **assets/images/tela.png**: Imagem representativa da aplicação.
+## Páginas do Projeto
 
-## Instalação
+### 1. Vitrine de Brinquedos
 
-Para executar o projeto localmente, siga os seguintes passos:
+A página **Vitrine de Brinquedos** permite que o usuário insira o nome de três brinquedos e gere uma lista formatada. O resultado é exibido na própria página.
 
-1. Clone o repositório (ou baixe o projeto).
-   ```bash
-   git clone <URL-do-repositório>
-   ```
-2. Navegue até a pasta do projeto.
-   ```bash
-   cd VitrineDeBrinquedos
-   ```
-3. Abra o arquivo `index.html` em seu navegador.
+#### Funcionamento
 
-## Uso
+- O usuário preenche três campos de texto com os nomes dos brinquedos.
+- Ao clicar no botão "Gerar Lista", a lista é gerada e exibida na tela.
 
-1. Na página inicial, você verá campos para inserir o nome de três brinquedos.
-2. Preencha os campos e clique no botão "Gerar Lista".
-3. A lista dos brinquedos aparecerá abaixo, formatada de maneira organizada.
-
-## Demonstração
+#### Exemplo
 
 ![Vitrine de Brinquedos](assets/images/tela.png)
+
+### 2. Estilizando o Nome do Brinquedo
+
+A página **Estilizando o Nome do Brinquedo** permite que o usuário insira uma cor, um tamanho de fonte e o nome de um brinquedo. O resultado é exibido em uma tag HTML `<h1>` estilizada.
+
+#### Funcionamento
+
+- O usuário insere a cor, o tamanho da fonte e o nome do brinquedo.
+- Ao clicar no botão "Gerar Tag", a tag estilizada é gerada e exibida na tela.
+
+#### Exemplo
+
+![Estilizando Nome do Brinquedo](assets/images/estilizando.png)
+
+## Como Usar
+
+1. Abra o arquivo `index.html` em um navegador para acessar a **Vitrine de Brinquedos**.
+2. Preencha os campos e clique em "Gerar Lista".
+3. Para acessar a página de **Estilizando o Nome do Brinquedo**, clique no botão correspondente.
+4. Na nova página, insira os dados e clique em "Gerar Tag" para visualizar o resultado.
 
 ## Tecnologias Utilizadas
 
 - HTML
 - CSS
 - JavaScript
+```
 
-## Contribuições
-
-Se você quiser contribuir com o projeto, fique à vontade para abrir uma `issue` ou enviar um `pull request`.
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo `LICENSE` para mais detalhes.
-```
+Este projeto é de propriedade de Douglas Lucio - IonKod.
 
-### Como Usar
+Você pode utilizar, modificar e distribuir este projeto sob as seguintes condições:
 
-1. Crie um arquivo chamado `README.md` na raiz do seu projeto.
-2. Copie e cole o conteúdo acima.
-3. Certifique-se de que a imagem `tela.png` esteja na pasta correta, conforme referenciado no README.
-
-Se precisar de mais alguma coisa ou ajustes, é só avisar!
+- Acreditamos que o conhecimento deve ser compartilhado. Portanto, sinta-se à vontade para usar e adaptar o código conforme necessário.
+- Ao redistribuir ou modificar o código, por favor, mantenha esta nota de crédito ao autor original.
+Para mais informações, entre em contato: Douglas Lucio - IonKod.
